@@ -1,5 +1,10 @@
 class Main {
   public static void main(String[] args) {
-    System.out.println("Fim !!!");
+
+
+    TesteSimples teste = new TesteSimples();
+    teste.executar();
+
+    System.out.println("IMCmonitor, Fim !!!");
   }
 }
