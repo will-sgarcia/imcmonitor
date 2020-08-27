@@ -1,14 +1,13 @@
 class TesteSimples{
 
-  public executar(){
+  public void executar(){
 
     Atleta atleta = new Atleta();
-    atleta.nome = "Piedade Silva";
-    atleta.idade = 25;
+    atleta.setNome("William");
+    atleta.setIdade(25);
 
-
-    Sistem.out.println("Nome = "+ atleta.nome);
-    Sistem.out.println("Idade = "+ atleta.idade);
+    System.out.println("Nome = "+ atleta.getNome());
+    System.out.println("Idade = "+ atleta.getIdade());
 
   }
 
