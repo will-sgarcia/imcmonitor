@@ -3,11 +3,10 @@ class TesteSimples{
   public void executar(){
 
     Atleta atleta = new Atleta();
-    atleta.setNome("William");
-    atleta.setIdade(25);
+    atleta.setNome("Maria");
+    atleta.setIdade(55);
 
-    System.out.println("Nome = "+ atleta.getNome());
-    System.out.println("Idade = "+ atleta.getIdade());
+    System.out.println("Nome : "+ atleta.getNome()+"\n" +"Idade : "+ atleta.getIdade());
 
   }
 
