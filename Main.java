@@ -1,10 +1,10 @@
 class Main {
-  public static void main(String[] args) {
+  public static void main(String[] args) throws Exception {
 
+    // TesteSimples teste = new TesteSimples();
+    TesteUnitario tu = new TesteUnitario();
+    tu.executarAll();
 
-    TesteSimples teste = new TesteSimples();
-    teste.executar();
-
-    System.out.println("IMCmonitor, Fim !!!");
+    System.out.println("\n\nimcmonitor, Fim!");
   }
 }

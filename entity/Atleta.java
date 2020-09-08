@@ -3,13 +3,13 @@ class Atleta {
   private String nome;
   private int idade;
 
-  public void setNome(String Nome) {
-    this.nome = Nome;
-  }
-  public void setIdade(int Idade) {
-    this.idade = Idade;
+  public void setNome(String nome) {
+    this.nome = nome;
   }
 
+  public void setIdade(int idade) {
+    this.idade = idade;
+  }
 
   public String getNome() {
     return nome;
